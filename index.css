@@ -1,7 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+.link {
+  color: #9ca3a1;
+  text-decoration: none;
+}
+
 /*########## Header ########## */
 
 .header {
+  align-items: center;
+  background-color: #1a1b1e;
+  color: #9ca3a1;
   display: flex;
+  padding: 0.7rem 1rem;
 }
 
 .header .logo-container {
@@ -9,7 +25,17 @@
 }
 
 .header .topbar {
+  align-items: center;
   display: flex;
   justify-content: space-between;
   flex: 5;
+}
+
+.header .topbar .actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.header .topbar .actions button {
+  display: flex;
 }
