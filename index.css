@@ -66,3 +66,21 @@ body {
   flex: 5;
   padding: 2rem;
 }
+
+/*########## Container > Main Content > Card ########## */
+
+.container .main-content .card {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 300px;
+}
+
+.container .main-content .card .card-image {
+  background-image: url("assets/leather-backpack.jpg");
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+}
