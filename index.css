@@ -1,1 +1,15 @@
+/*########## Header ########## */
 
+.header {
+  display: flex;
+}
+
+.header .logo-container {
+  flex: 1;
+}
+
+.header .topbar {
+  display: flex;
+  justify-content: space-between;
+  flex: 5;
+}
