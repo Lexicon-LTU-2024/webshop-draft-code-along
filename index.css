@@ -79,7 +79,6 @@ body {
 .container .main-content .card .card-image {
   background-image: url("assets/leather-backpack.jpg");
   background-position: center;
-  /* background-repeat: no-repeat; */
   background-size: cover;
   height: 100%;
   margin: 0;
