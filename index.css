@@ -41,7 +41,13 @@
 }
 
 .header .topbar .actions button {
+  align-items: center;
+  aspect-ratio: 1 / 1;
   display: flex;
+}
+
+.header .topbar .actions .avatar {
+  border-radius: 50%;
 }
 
 /*########## Container ########## */
@@ -108,6 +114,7 @@
 .container .main-content .card .card-content .card-actions {
   display: flex;
   justify-content: center;
+  gap: 1rem;
 }
 
 .container .main-content .card .card-content .card-actions .add {
