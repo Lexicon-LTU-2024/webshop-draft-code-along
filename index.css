@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
-body {
+* {
   font-family: "Inter", sans-serif;
   margin: 0;
 }
@@ -63,13 +63,20 @@ body {
 /*########## Container > Main Content ########## */
 
 .container .main-content {
+  background-color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
   flex: 5;
+  gap: 2rem;
   padding: 2rem;
 }
 
 /*########## Container > Main Content > Card ########## */
 
 .container .main-content .card {
+  background-color: #1a1b1e;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   display: flex;
   flex-direction: column;
   height: 500px;
@@ -80,6 +87,35 @@ body {
   background-image: url("assets/leather-backpack.jpg");
   background-position: center;
   background-size: cover;
-  height: 100%;
-  margin: 0;
+  border-radius: 10px 10px 0 0;
+  flex: 1;
+}
+
+.container .main-content .card .card-content {
+  color: whitesmoke;
+  padding: 1rem;
+}
+
+.container .main-content .card .card-content h3 {
+  margin-bottom: 1rem;
+}
+
+.container .main-content .card .card-content .card-text {
+  color: #9ca3a1;
+  margin-bottom: 1rem;
+}
+
+.container .main-content .card .card-content .card-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.container .main-content .card .card-content .card-actions .add {
+  background-color: inherit;
+  border-radius: 10px;
+  border: 1px solid whitesmoke;
+  color: whitesmoke;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
 }
